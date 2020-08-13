@@ -1,0 +1,19 @@
+{
+  "name": "espsurvival-bots",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mineflayer": "^2.27.0",
+    "mineflayer-pathfinder": "^1.0.10",
+    "vec3": "^0.1.6"
+  },
+  "scripts": {
+    "start": "nodemon src/main.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
